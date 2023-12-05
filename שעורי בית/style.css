@@ -1,0 +1,21 @@
+*{
+    font-style: italic;
+}
+body{ 
+    color: green;
+    background-color: white
+
+}
+
+h1 {
+    color: red;
+}
+h3{
+    color:blue;
+}
+h3{
+    font-size: 80px;
+}
+li{
+    display:inline-block;
+}

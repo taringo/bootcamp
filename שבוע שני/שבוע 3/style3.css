@@ -1,0 +1,50 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+}
+img {
+    background-color:black;
+    padding: 5px;
+}
+body {direction: rtl
+}
+#pic{
+    display: flex;
+    width: 80%;
+}
+body{
+    background-color: bisque;
+}
+
+img {
+    border: 2px solid #ffd500;
+    border-radius: 10px; 
+    background-color: #f7f7f7;
+
+}
+#hello:hover{
+    background-color:beige
+
+}
+img:hover {
+    transform: scale(1.1); 
+
+}
+p {
+    font-size: 18px;  
+  }
+  h1:hover {
+    font-size: 50px;
+  }
+.hello {
+    border-style:solid;
+    border-color: orange;
+    transition:1s;
+}
+
+.hello:hover
+{
+transform:scale(0.9)
+
+}

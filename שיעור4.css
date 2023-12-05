@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+}
+
+#hello{
+    width:50%;
+    margin: 0 auto;
+    background-color: blue;
+    padding: 170px;
+    border-radius: 10px;
+}
+#hello:hover {
+    background-color: aquamarine;
+}
+
+#home{
+    color: yellow;
+}
+#lol{
+    color: brown;
+}
+img{
+    border-radius: 30px;
+}
+
