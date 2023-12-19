@@ -1,0 +1,22 @@
+body{
+    overflow: scroll;
+    background-color: brown
+}
+h1{
+    position: absolute;
+    transition: 5s;
+    width: 50%;
+
+}
+h1:hover{
+    background-color: yellow;
+    width: 20%;
+}
+.love{
+    color: aqua;
+    background-color: bisque;
+    width: fit-content;
+}
+.love p{
+    color:blue
+}

@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    flex-direction:row;
+    width: 500px;
+    height: 500px;
+    justify-content: space-evenlyh;
+    flex-wrap: wrap-reverse;
+    gap: 16px;
+}
