@@ -43,5 +43,75 @@ console.log(d);
 
 console.log(3 + 4 + '5');
 
+typeof(15)
+'number'
+
+typeof(15)
+'number'
+
+typeof(NaN)
+''
+
+typeof("hello")
+'String'
+
+typeof(true)
+'Boolean'
 
 
+typeof(1 != 2)
+// Prediction:
+// Actual:
+
+'String'
+
+"hamburger" + "s"
+// Prediction:
+// Actual:
+'String'
+
+"hamburgers" - "s"
+// Prediction:
+// Actual:
+'String'
+
+"1" + "3"
+// Prediction:
+// Actual:
+
+'String'
+
+"1" - "3"
+// Prediction:
+// Actual:
+
+'String'
+
+"johnny" + 5
+// Prediction:
+// Actual:
+
+
+"johnny" - 5
+// Prediction:
+// Actual:
+
+
+99 * "hello"
+// Prediction:
+// Actual:
+
+
+1 != 1
+// Prediction:
+// Actual:
+
+
+1 == "1"
+// Prediction:
+// Actual:
+
+
+1 === "1"
+// Prediction:
+// Actual:
