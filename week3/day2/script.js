@@ -43,75 +43,136 @@ console.log(d);
 
 console.log(3 + 4 + '5');
 
-typeof(15)
-'number'
 
 typeof(15)
-'number'
+// Prediction:numbers
+// Actual:
+
+
+typeof(5.5)
+// Prediction:numbers
+// Actual:
+
 
 typeof(NaN)
-''
+// Prediction:Null 
+// Actual:
+
 
 typeof("hello")
-'String'
+// Prediction:string
+// Actual: 
 
 typeof(true)
-'Boolean'
+// Prediction:Boolean
+// Actual:
 
 
 typeof(1 != 2)
-// Prediction:
+// Prediction:Boolean
 // Actual:
 
-'String'
 
 "hamburger" + "s"
-// Prediction:
+// Prediction:String
 // Actual:
-'String'
 
 "hamburgers" - "s"
-// Prediction:
+// Prediction:String
 // Actual:
-'String'
 
 "1" + "3"
-// Prediction:
+// Prediction:String
 // Actual:
-
-'String'
 
 "1" - "3"
-// Prediction:
+// Prediction:String
 // Actual:
-
-'String'
 
 "johnny" + 5
-// Prediction:
+// Prediction:Undefined
 // Actual:
-
 
 "johnny" - 5
-// Prediction:
+// Prediction:Undefined
 // Actual:
-
 
 99 * "hello"
-// Prediction:
+// Prediction:Undefined
 // Actual:
-
 
 1 != 1
-// Prediction:
+// Prediction:Boolean
 // Actual:
 
-
 1 == "1"
-// Prediction:
+// Prediction:Boolean
 // Actual:
 
 
 1 === "1"
+// Prediction:Boolean 
+// Actual:
+
+
+
+5 + "34"
+// Prediction:Undefined
+// Actual:
+
+5 - "4"
+// Prediction:Undefined
+// Actual:
+
+10 % 5
+// Prediction:numbers
+// Actual:
+
+
+5 % 10
+// Prediction:numbers
+// Actual:
+
+
+"Java" + "Script"
+// Prediction:String
+// Actual:
+
+
+" " + " "
 // Prediction:
+// Actual:
+
+" " + 0
+// Prediction:Undefined
+// Actual:
+
+
+true + true
+// Prediction:Boolean
+// Actual:
+
+true + false
+// Prediction:Boolean
+// Actual:
+
+false + true
+// Prediction:Boolean
+// Actual:
+
+false - true
+// Prediction:Boolean
+// Actual:
+
+!true
+// Prediction:Boolean
+// Actual:
+
+3 - 4
+// Prediction:Number
+// Actual:
+
+
+"Bob" - "bill"
+// Prediction:String
 // Actual:
