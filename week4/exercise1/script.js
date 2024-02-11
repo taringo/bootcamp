@@ -31,3 +31,46 @@ function calculateTip(params) {
     } 
 
 }
+
+const isDivisible=()=>{
+    let sum = 0
+for (let number = 0; number < 500; number++) {
+    if (number % 23 === 0) {
+        console.log(number);
+        sum= sum+ number
+
+    }
+}
+console.log(sum);
+}
+isDivisible()
+
+
+
+
+const stock = { 
+    "banana": 6, 
+    "apple": 0,
+    "pear": 12,
+    "orange": 32,
+    "blueberry":1
+}  
+
+const prices = {    
+    "banana": 4, 
+    "apple": 2, 
+    "pear": 1,
+    "orange": 1.5,
+    "blueberry":10
+} 
+
+
+
+// let yaffa = 10
+// for (let index = 0; index < 10; index++) {
+// let jaffa = 10
+// console.log(yaffa);
+// console.log(jaffa);
+// yaffa++
+// jaffa++
+// }

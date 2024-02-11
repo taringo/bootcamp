@@ -8,6 +8,7 @@ let c = 5+20
 let d = undefined;
 let e = true;
 
+
 // console.log(a + b);
 
 console.log(a + thing);
@@ -61,3 +62,5 @@ if (prop==7){
 }
 
 }
+
+

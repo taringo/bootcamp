@@ -29,6 +29,25 @@ function plus32(number) {
 
 console.log(plus32(divid5Out));
 
+let addressNumber = "1142,  9";
+
+let addressStreet = "herzel";
+
+let country = "isreal, kiriat malachi"
+
+
+
+// let globalAddress = "i live in" + addressStreet +  " " + addressNumber  + ", " + "in " countr;
     
+// console.log (globalAddress)
 
+console.log(1 + "2");
 
+let birth = 1986
+// console.log(birth);
+
+let futureyear = 2025
+
+let Calculate = birth - futureyear
+
+console.log( "i will be " +  Calculate + "in this year");

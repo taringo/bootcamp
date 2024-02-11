@@ -1,5 +1,5 @@
-let container = document.getElementById('container')
-console.log(container);
+// let container = document.getElementById('container')
+// console.log(container);
 
 let pete = document.getElementsByTagName('li')[1]
 console.log(pete);
@@ -9,12 +9,12 @@ let Sarah = document.getElementsByTagName('li')[3]
 let ul = document.getElementsByClassName('list')[1]
 ul.removeChild(Sarah)
 
+let list = document.querySelectorAll('ul')
+console.log(ul);
 
-for (nazz of nazma) {
-    
-    let ul = document.createElement(ul)
-    ul.textContent=nazz
-    ul.classList.add('nazz', nazz)
-    ul.appendChild(ul)
-  
-}
+// for (lists  of list) { 
+//     ul.textContent='taringo'
+// }
+
+
+

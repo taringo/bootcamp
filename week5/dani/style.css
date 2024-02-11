@@ -1,0 +1,12 @@
+/* #myList {
+  background-color: red;
+} */
+
+.red {
+    background-color: red;
+  }
+  
+  .blue {
+    border: 2px dotted blue;
+    color: white;
+  }
