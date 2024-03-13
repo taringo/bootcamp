@@ -1,3 +1,4 @@
+// 🌟 Exercise 1 : Information
 function infoAboutMe(params) {
     let hello = `my name is yaffa i'm 36 years old i like to travel`
     console.log(hello);
@@ -47,6 +48,7 @@ isDivisible()
 
 
 
+// 🌟 Exercise 4 : Shopping List
 
 const stock = { 
     "banana": 6, 
@@ -64,13 +66,49 @@ const prices = {
     "blueberry":10
 } 
 
+const shoppingList = [ "banana", "orange","apple",]
+
+function myBill() {
+    let totallPrice = 0
+    for (const item of shoppingList) {
+        if (stock[item]>0) {
+            totallPrice=totallPrice+prices[item]
+            stock[item]--
+        }
+    }
+    return totallPrice
+}
+console.log(myBill());
+console.log(stock);
 
 
-// let yaffa = 10
-// for (let index = 0; index < 10; index++) {
-// let jaffa = 10
-// console.log(yaffa);
-// console.log(jaffa);
-// yaffa++
-// jaffa++
-// }
+// Exercise 5 : What’s In My Wallet ?
+
+function changeEnough(itemPrice, amountOfChange) {
+    let toall = 0
+    let value =[10 ,5 , 2, 1]
+    for (let i = 0; i < value.length; i++) {
+        const element = value[i];
+        toall=toall+element*amountOfChange[i]
+    }
+    if (toall >= itemPrice) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log(changeEnough(300, [2, 7, 60, 100]));
+
+// 🌟 Exercise 6 : Vacations Costs
+
+function hotelCost() {
+    let nightsNum = prompt('how many nights do you want to stay')
+    if (!(isNaN(Number(nightsNum)))) {
+        console.log(Number(nightsNum));
+        return 140*nightsNum
+    }
+    else {
+        hotelCost()
+    }
+}
+hotelCost()

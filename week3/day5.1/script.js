@@ -38,7 +38,31 @@ while (conter < names.length) {
 }
 
 // dowhile  יבדוק את הקוד ואז יעשה את התנאי (הוא יפעל לפחות פעם אחת)
-do {
-    conter++
-    console.log(conter);
-} while (condition);
+// do {
+//     conter++
+//     console.log(conter);
+// } while (conter < names.length);
+
+
+for (let number1 = 0; number1 < 15; number1++) {
+if (number1 % 2 === 0) {
+    console.log(number1 + ' is even');
+    
+} else {
+    console.log(number1 + ' is odd');
+}
+}
+
+let name1= ["john", "sarah", 23, "Rudolf",34]
+for (let index = 0; index < name1.length; index++) {
+    if (typeof name1[index] == 'string') {
+        let nameItam = name1[index]
+        if (!(nameItam[0] === nameItam.toUpperCase()[0])) {
+            console.log(nameItam);
+        }
+        
+    }
+}
+
+
+

@@ -70,8 +70,7 @@ if (password.length > 8) {
 } 
 else if (password > 18 && password <8 ) {
 
-    console.log('password is ok');
-
+    console.log('password is ok')
 }
 
 else {
